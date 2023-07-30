@@ -4,14 +4,9 @@ import logo from '../images/icono.png';
 
 const Header = () => {
     return (
-      <div>
-        <footer>
-           <img src={logo} className='' />
-        </footer>
-      </div>
-          
-
-
+        <div>
+            <img className='img-fluid' style={{width: '200px'}} src={ logo} alt="" />
+        </div>
     )
 }
 
